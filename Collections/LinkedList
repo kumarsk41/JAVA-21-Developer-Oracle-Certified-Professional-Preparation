@@ -1,0 +1,38 @@
+package com.shashank.collections;
+
+import java.util.*;
+public class CollectionsEx6 {
+    public static void main(String[] args) {
+        LinkedList a=new LinkedList();
+//        a.addFirst(10);
+//        a.addFirst(20);
+//        a.addFirst(10);
+//        a.addFirst(21);
+        
+//        a.addLast(10);
+//        a.addLast(20);
+//        a.addLast(10);
+//        a.addLast(21);
+a.add(5);
+a.add(4);
+
+a.add(3);
+a.add(2);
+a.add(1);
+a.push(1);
+System.out.println(a);
+        a.addFirst(10);
+//        a.addLast(20);
+//        a.addLast(12);
+//        a.addFirst(21);
+//        a.add(1, 78); //add object by index
+       System.out.println( a.pop());
+       System.out.println(a);
+       
+
+;;
+//        for(Object o:a){
+//             System.out.println(o);
+//        }
+    }
+}
